@@ -6,15 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy:staging": "vite build && wrangler deploy --env staging",
-    "deploy:production": "vite build && wrangler deploy --env production"
+    "preview": "vite preview"
   },
   "dependencies": {
     "vue": "^3.5.34"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.6",
-    "vite": "^8.0.12"
+    "vite": "^8.0.12",
+    "wrangler": "^4.100.0"
   }
 }
