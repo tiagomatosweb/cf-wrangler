@@ -10,7 +10,7 @@ const count = ref(0)
 
 <template>
   <section id="center">
-    Env: {{ ENV }}
+    Env: {{ ENV }}.
     <div class="hero">
       <img :src="heroImg" class="base" width="170" height="179" alt="" />
       <img :src="vueLogo" class="framework" alt="Vue logo" />
