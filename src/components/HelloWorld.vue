@@ -3,12 +3,14 @@ import { ref } from 'vue'
 import viteLogo from '../assets/vite.svg'
 import heroImg from '../assets/hero.png'
 import vueLogo from '../assets/vue.svg'
+const ENV = import.meta.env.VITE_TEST
 
 const count = ref(0)
 </script>
 
 <template>
   <section id="center">
+    Env: {{ ENV }}
     <div class="hero">
       <img :src="heroImg" class="base" width="170" height="179" alt="" />
       <img :src="vueLogo" class="framework" alt="Vue logo" />
